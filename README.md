@@ -49,6 +49,8 @@ https://private-user-images.githubusercontent.com/119627769/365216963-59a54fb0-0
 To view and interact with the landing page, clone the repository and install the dependencies:
 
 ```bash
-git clone [repository-url]
-cd [repository-name]
+git clone https://github.com/bemnet16/SaaS-landing-page.git
+cd SaaS-landing-page
 pnpm install
+```
+- Then open https://localhost:3000 in your browser.
