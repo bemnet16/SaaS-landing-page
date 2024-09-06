@@ -9,7 +9,7 @@ export const Header = () => {
     <header className="sticky top-0 backdrop-blur-sm z-20">
       <div className="flex justify-center items-center gap-3 py-3 bg-black text-white text-sm">
         <p className="text-white/60 hidden md:block">
-          Streamilne your workflow and boost your productivity
+          Streamline your workflow and boost your productivity
         </p>
         <div className="inline-flex gap-1 items-center">
           <p>Get start with Free</p>
