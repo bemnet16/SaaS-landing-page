@@ -51,6 +51,7 @@ export const Header = () => {
           <nav className="hidden md:flex gap-6 font-medium text-black/80 items-center dark:text-white/80">
             <a href="#">Features</a>
             <a href="#">About</a>
+
             <a href="#">Customers</a>
             <a href="#">Updates</a>
             <a href="#">Help</a>
