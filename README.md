@@ -4,10 +4,7 @@
 
 Welcome to the SaaS Landing Page! This is a modern, interactive landing page designed to showcase the features and benefits of a SaaS product. With a focus on user engagement and visual appeal, this page effectively highlights the product's key offerings while providing an enjoyable user experience.
 
-<video width="600" controls>
-  <source src="https://github.com/bemnet16/SaaS-landing-page/blob/main/src/assets/Screencast%20from%2006-09-2024%20%206%3A02%3A29%20%E1%8A%A8%E1%88%B0%E1%8B%93%E1%89%B5.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+https://github.com/bemnet16/SaaS-landing-page/issues/7#issue-2510662866
 
 ## Key Features
 
