@@ -17,42 +17,20 @@ Welcome to the SaaS Landing Page! This is a modern, interactive landing page des
   - Incorporates **gradient backgrounds** and high-quality images.
   - Background gradients and overlays add depth and visual interest.
 
-- **Customizable Pricing Tiers**:
-  - Clearly defined pricing tiers with options to highlight popular plans.
-  - Features and benefits are presented with icons and easy-to-read lists.
-
-- **User Testimonials**:
-  - Carousel of **testimonials** with animated scrolling for social proof and user feedback.
-  - Rotating testimonials keep the content fresh and engaging.
-
-- **Call-to-Action Sections**:
-  - Prominent call-to-action buttons with animations to encourage users to sign up or learn more.
-  - Sections are designed to capture user attention with appealing visuals and compelling text.
-
-- **Modern UI Components**:
-  - Components such as **Hero Sections**, **Logo Tickers**, **Product Showcases**, and **Pricing Cards** highlight key features and benefits effectively.
-  - Custom elements and animations make the page stand out.
-
 - **Visual Hierarchy**:
   - Strategic use of typography and color gradients ensures important information stands out and is easily readable.
   - Well-organized sections guide users through the page logically.
 
 ## Screenshots
+<p align="center">
+<img src="https://github.com/bemnet16/SaaS-landing-page/blob/main/src/assets/Screenshot%20from%202024-09-06%2017-43-18.png"/>
+<img src="https://github.com/bemnet16/SaaS-landing-page/blob/main/src/assets/Screenshot%20from%202024-09-06%2017-43-44.png" />
+</p>
 
-![Hero Section](path/to/screenshot-hero.png)
-*Hero Section showcasing interactive animations and engaging design.*
-
-![Product Showcase](path/to/screenshot-product-showcase.png)
-*Product Showcase section with animated images.*
-
-![Pricing Tiers](path/to/screenshot-pricing.png)
-*Customizable Pricing Tiers with highlighted plans.*
-
-![Testimonials](path/to/screenshot-testimonials.png)
-*User Testimonials section with animated scrolling.*
-
-![Call to Action](path/to/screenshot-call-to-action.png)
-*Call-to-Action section encouraging users to sign up.*
+<p align="center">
+<img src="https://github.com/bemnet16/SaaS-landing-page/blob/main/src/assets/Screenshot%20from%202024-09-06%2017-43-58.png"/>
+<img src="https://github.com/bemnet16/SaaS-landing-page/blob/main/src/assets/Screenshot%20from%202024-09-06%2017-44-10.png" />
+</p>
 
 ## Technologies Used
 
