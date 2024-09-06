@@ -21,18 +21,20 @@ export const ProductShowcase = () => {
   return (
     <section
       ref={sectionRef}
-      className="bg-gradient-to-b from-white to-[#D2DCFF] py-24 overflow-x-clip"
+      className="bg-gradient-to-b from-white to-[#D2DCFF] dark:from-[#253340] dark:to-[#727a82]  py-24 overflow-x-clip"
     >
       <div className="container">
         <div className="section-heading">
           <div className="flex justify-center">
-            <h2 className="tag">Boost your productivity</h2>
+            <h2 className="tag text-black dark:text-white">
+              Boost your productivity
+            </h2>
           </div>
           <h2 className="section-title mt-5">
             A more effective way to track progress
           </h2>
-          <p className="section-description mt-5">
-            Effortlessly turn you ideas into a fully functional, responsive,
+          <p className="section-description mt-5 text-[#010D3E] dark:text-gray-200">
+            Effortlessly turn your ideas into a fully functional, responsive,
             SaaS website in just minutes with this template.
           </p>
         </div>

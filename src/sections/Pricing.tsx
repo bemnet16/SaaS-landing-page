@@ -58,11 +58,11 @@ const pricingTiers = [
 
 export const Pricing = () => {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-white dark:bg-gray-900">
       <div className="container">
         <div className="section-heading">
           <h2 className="section-title">Pricing</h2>
-          <p className="section-description mt-5">
+          <p className="section-description mt-5 text-[#010D3E] dark:text-gray-200">
             Free forever, Upgrade for unlimited tasks, better security, and
             exclusive features.
           </p>
@@ -75,22 +75,23 @@ export const Pricing = () => {
             ) => (
               <div
                 className={twMerge(
-                  "card",
-                  inverse === true && "border-black bg-black text-white/60"
+                  "card border bg-white text-black dark:bg-gray-900 dark:text-white dark:border-gray-700",
+                  inverse === true &&
+                    "border-black bg-black text-white dark:bg-white dark:text-black dark:border-white"
                 )}
                 key={index}
               >
                 <div className="flex justify-between">
                   <h3
                     className={twMerge(
-                      "text-lg font-bold text-black/50",
-                      inverse === true && "text-white/60"
+                      "text-lg font-bold text-black/50 dark:text-white/60",
+                      inverse === true && "text-white/60 dark:text-black/60"
                     )}
                   >
                     {title}
                   </h3>
                   {popular === true && (
-                    <div className="inline-flex text-sm px-4 py-1.5 rounded-xl border border-white/20">
+                    <div className="inline-flex text-sm px-4 py-1.5 rounded-xl border border-white/20 dark:border-gray-600">
                       <motion.span
                         animate={{
                           backgroundPositionX: "-100%",
@@ -112,25 +113,29 @@ export const Pricing = () => {
                   <span className="text-4xl font-bold tracking-tighter leading-none">
                     ${monthlyPrice}
                   </span>
-                  <span className="tracking-tight font-bold text-black/50">
+                  <span className="tracking-tight font-bold text-gray-400">
                     /month
                   </span>
                 </div>
                 <button
                   className={twMerge(
                     "btn btn-primary w-full mt-[30px]",
-                    inverse === true && "bg-white text-black"
+                    inverse === true &&
+                      "bg-white text-black dark:bg-black dark:text-white"
                   )}
                 >
                   {buttonText}
                 </button>
                 <ul className="flex flex-col gap-5 mt-8">
                   {features.map((feature, index) => (
-                    <li
-                      className="text-sm flex items-center gap-4 "
-                      key={index}
-                    >
-                      <CheckIcon className="h-6 w-6" />
+                    <li className="text-sm flex items-center gap-4" key={index}>
+                      <CheckIcon
+                        className={`h-6 w-6 text-black ${
+                          inverse == true
+                            ? "text-white dark:text-black"
+                            : "text-black dark:text-white"
+                        }`}
+                      />
                       <span> {feature} </span>
                     </li>
                   ))}
