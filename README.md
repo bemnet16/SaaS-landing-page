@@ -22,12 +22,17 @@ Welcome to the SaaS Landing Page! This is a modern, interactive landing page des
   - Well-organized sections guide users through the page logically.
 
 ## Screenshots
+
+Theme light
 <img src="https://github.com/bemnet16/SaaS-landing-page/blob/main/src/assets/Screenshot%20from%202024-09-06%2017-43-18.png"/>
 
+Theme dark
 <img src="https://github.com/bemnet16/SaaS-landing-page/blob/main/src/assets/Screenshot%20from%202024-09-06%2017-43-44.png" />
 
+Theme light
 <img src="https://github.com/bemnet16/SaaS-landing-page/blob/main/src/assets/Screenshot%20from%202024-09-06%2017-43-58.png"/>
-  
+
+Theme dark
 <img src="https://github.com/bemnet16/SaaS-landing-page/blob/main/src/assets/Screenshot%20from%202024-09-06%2017-44-10.png" />
 
 ## Technologies Used
