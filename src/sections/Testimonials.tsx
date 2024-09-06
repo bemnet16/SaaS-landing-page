@@ -23,7 +23,7 @@ const testimonials = [
     username: "@jamietechguru00",
   },
   {
-    text: "Our team's productivity has skyrocketed since we started using this tool. ",
+    text: "Our team's productivity has skyrocketed since we started using this tool.",
     imageSrc: avatar2.src,
     name: "Josh Smith",
     username: "@jjsmith",
@@ -78,14 +78,14 @@ const thirdColumn = testimonials.slice(6, 9);
 
 export const Testimonials = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white dark:bg-gray-900">
       <div className="container">
         <div className="section-heading">
           <div className="flex justify-center">
-            <p className="tag">Testimonials</p>
+            <p className="tag text-black dark:text-white">Testimonials</p>
           </div>
           <h2 className="section-title mt-5">What our users say</h2>
-          <p className="section-description mt-5">
+          <p className="section-description mt-5 text-gray-700 dark:text-gray-300">
             From intuitive design to powerful features, our app has become an
             essential tool for users around the world.
           </p>
@@ -131,8 +131,11 @@ const TestimonialsColumn = (props: {
           <React.Fragment key={index}>
             {props.testimonials.map(
               ({ text, imageSrc, name, username }, index) => (
-                <div key={index} className="card">
-                  <div> {text} </div>
+                <div
+                  key={index}
+                  className="card bg-white dark:bg-gray-800 text-black dark:text-white border dark:border-gray-700"
+                >
+                  <div>{text}</div>
                   <div className="flex items-center gap-2 mt-5">
                     <Image
                       src={imageSrc}
@@ -145,9 +148,8 @@ const TestimonialsColumn = (props: {
                       <h2 className="font-medium tracking-tight leading-5">
                         {name}
                       </h2>
-                      <h3 className="leading-5 tracking-tight text-slate-700">
-                        {" "}
-                        {username}{" "}
+                      <h3 className="leading-5 tracking-tight text-gray-700 dark:text-gray-400">
+                        {username}
                       </h3>
                     </div>
                   </div>

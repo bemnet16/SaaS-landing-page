@@ -21,8 +21,13 @@ const config: Config = {
           lg: "80px",
         },
       },
+      colors: {
+        dark: "#1A202C",
+        light: "#F7FAFC",
+      },
     },
   },
+  darkMode: "class", // Enable dark mode
   plugins: [],
 };
 

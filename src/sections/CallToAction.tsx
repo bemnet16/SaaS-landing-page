@@ -18,12 +18,12 @@ export const CallToAction = () => {
   return (
     <section
       ref={callRef}
-      className="bg-gradient-to-b from-white to-[#D2DCFF] py-24 overflow-x-clip"
+      className="bg-gradient-to-b from-white to-[#D2DCFF] dark:from-gray-900 dark:to-[#1F2A48] py-24 overflow-x-clip"
     >
       <div className="container">
         <div className="section-heading relative">
           <h2 className="section-title">Sign up for free today</h2>
-          <p className="section-description mt-5">
+          <p className="section-description mt-5 text-gray-700 dark:text-gray-300">
             Celebrate the joy of accomplishment with an app designed to track
             your progress and motivate your efforts.
           </p>
@@ -40,7 +40,7 @@ export const CallToAction = () => {
 
           <motion.img
             src={SpringImage.src}
-            alt="Star img"
+            alt="Spring img"
             width={360}
             className="absolute -right-[331px] -top-[19px]"
             style={{
@@ -51,7 +51,7 @@ export const CallToAction = () => {
 
         <div className="flex justify-center items-center gap-6 mt-10">
           <button className="btn btn-primary">Get for free</button>
-          <button className="btn btn-text">
+          <button className="btn btn-text text-gray-800 dark:text-gray-200">
             Learn more
             <ArrowIcon className="w-5 h-5" />
           </button>
