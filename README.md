@@ -24,11 +24,13 @@ Welcome to the SaaS Landing Page! This is a modern, interactive landing page des
 ## Screenshots
 <p align="center">
 <img src="https://github.com/bemnet16/SaaS-landing-page/blob/main/src/assets/Screenshot%20from%202024-09-06%2017-43-18.png"/>
+  
 <img src="https://github.com/bemnet16/SaaS-landing-page/blob/main/src/assets/Screenshot%20from%202024-09-06%2017-43-44.png" />
 </p>
 
 <p align="center">
 <img src="https://github.com/bemnet16/SaaS-landing-page/blob/main/src/assets/Screenshot%20from%202024-09-06%2017-43-58.png"/>
+  
 <img src="https://github.com/bemnet16/SaaS-landing-page/blob/main/src/assets/Screenshot%20from%202024-09-06%2017-44-10.png" />
 </p>
 
